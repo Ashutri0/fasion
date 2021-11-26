@@ -1,0 +1,206 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+    min-height: 100vh;
+    /* background-color: rgb(206, 204, 163); */
+    background-image: radial-gradient(circle, #9569a1, #807eb6, #6c90c1, #63a0c2, #6cadbd);
+}
+
+nav{
+    position: fixed;
+    display: flex;
+    z-index: 4;
+    justify-content: space-between;
+    top: 2%;
+    left: 10%;
+    transform: translate(-50% -50%);
+    width: 80%;
+    min-height: 8vh;
+    background-color: rgb(221, 240, 252);
+    /* background-image: linear-gradient(to left, #7b66e5, #6651d7, #503cc8, #3726ba, #0f0bab); */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+    text-align: center;
+    padding: 18px;
+    /* color: rgb(0, 0, 0); */
+}
+
+nav img{
+    width: 35%;
+}
+
+#logo{
+    display: flex;
+}
+a{
+    /* text-decoration: none; */
+    color: gray;
+}
+a#lnk{
+    color: red;
+}
+#logo h3{
+    font-family: gula free;
+    font-size: 25px;
+    margin-left: 10px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-family: sans-serif;
+    font-weight: 100;
+    text-align: center;
+    color: gray;
+}
+
+
+#one{
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+    font-size: 22px;
+    background: linear-gradient(217deg, rgba(223, 151, 151, 0.8), rgba(255,0,0,0) 70.71%),
+            linear-gradient(127deg, rgba(118, 207, 118, 0.8), rgba(0,255,0,0) 70.71%),
+            linear-gradient(336deg, rgba(134, 134, 221, 0.8), rgba(0,0,255,0) 70.71%);
+}
+h1{
+    margin-bottom: 25px;
+}
+
+#one i{
+    position: absolute;
+    top: 9%;
+    right: -0.5%;
+    cursor: pointer;
+    transform: translate(-50% , -50%);
+    font-size: 55px;
+    color: maroon;
+}
+
+button{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+    transform: translate(-50% , -50%);
+    width: 17%;
+    height: 7%;
+    cursor: alias;
+    font-family: 'gilroy';
+    font-weight: 900;
+    border-radius: 12px;
+    color: white;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(43, 44, 46);
+}
+
+img#onem{
+    position: absolute;
+    right: 10%;
+    top: 0%;
+    width: 23%;
+}
+
+button#bn2{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    transform: translate(-50% , -50%);
+    width: 17%;
+    height: 7%;
+    cursor: alias;
+    font-family: 'gilroy';
+    font-weight: 900;
+    border-radius: 12px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(43, 44, 46);
+}
+
+#two{
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+    background: linear-gradient(217deg, rgba(223, 151, 151, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(118, 207, 118, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(134, 134, 221, 0.8), rgba(0,0,255,0) 70.71%);
+    font-size: 22px;
+}
+h1{
+    margin-bottom: 25px;
+}
+
+#two i{
+    position: absolute;
+    top: 9%;
+    right: -0.5%;
+    cursor: pointer;
+    transform: translate(-50% , -50%);
+    font-size: 55px;
+    color: maroon;
+}
+
+
+button#bn3{
+    position: absolute;
+    top: 30%;
+    left: 75%;
+    transform: translate(-50% , -50%);
+    width: 17%;
+    height: 7%;
+    cursor: alias;
+    font-family: 'gilroy';
+    font-weight: 900;
+    border-radius: 12px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(43, 44, 46);
+}
+
+#three{
+    display: none;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+    width: 50%;
+    height: 40%;
+    padding: 20px;
+    background: linear-gradient(217deg, rgba(223, 151, 151, 0.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, rgba(118, 207, 118, 0.8), rgba(0,255,0,0) 70.71%),
+    linear-gradient(336deg, rgba(134, 134, 221, 0.8), rgba(0,0,255,0) 70.71%);
+    font-size: 22px;
+}
+h1{
+    margin-bottom: 25px;
+}
+
+#three i{
+    position: absolute;
+    top: 9%;
+    right: -0.5%;
+    cursor: pointer;
+    transform: translate(-50% , -50%);
+    font-size: 55px;
+    color: maroon;
+}
+
